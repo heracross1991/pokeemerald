@@ -830,3 +830,36 @@ gTileset_UnionRoom:: @ 83DFDFC
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_NaturalSnowIce::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_NaturalSnowIce
+	.4byte gTilesetPalettes_NaturalSnowIce
+	.4byte gMetatiles_NaturalSnowIce
+	.4byte gMetatileAttributes_NaturalSnowIce
+	.4byte NULL
+
+	.align 2
+gTileset_SnowTown::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_SnowTown
+	.4byte gTilesetPalettes_SnowTown
+	.4byte gMetatiles_SnowTown
+	.4byte gMetatileAttributes_SnowTown
+	.4byte NULL
+
+	.align 2
+gTileset_SnowGeneral::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_SnowGeneral
+	.4byte gTilesetPalettes_SnowGeneral
+	.4byte gMetatiles_SnowGeneral
+	.4byte gMetatileAttributes_SnowGeneral
+	.4byte NULL

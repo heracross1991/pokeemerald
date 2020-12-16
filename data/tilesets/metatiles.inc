@@ -557,3 +557,25 @@ gMetatiles_UnionRoom:: @ 83DF392
 	.align 1
 gMetatileAttributes_UnionRoom:: @ 83DF6A2
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_NaturalSnowIce::
+	.incbin "data/tilesets/primary/naturalsnowice/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_NaturalSnowIce::
+	.incbin "data/tilesets/primary/naturalsnowice/metatile_attributes.bin"
+	.align 1
+gMetatiles_SnowTown::
+	.incbin "data/tilesets/secondary/snowtown/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_SnowTown::
+	.incbin "data/tilesets/secondary/snowtown/metatile_attributes.bin"
+	.align 1
+gMetatiles_SnowGeneral::
+	.incbin "data/tilesets/primary/snowgeneral/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_SnowGeneral::
+	.incbin "data/tilesets/primary/snowgeneral/metatile_attributes.bin"

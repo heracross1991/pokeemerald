@@ -1729,3 +1729,63 @@ gTilesetPalettes_UnionRoom:: @ 8395678
 	.align 2
 gTilesetTiles_UnionRoom:: @ 8395878
 	.incbin "data/tilesets/secondary/union_room/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_NaturalSnowIce::
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/naturalsnowice/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_NaturalSnowIce::
+	.incbin "data/tilesets/primary/naturalsnowice/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_SnowTown::
+	.incbin "data/tilesets/secondary/snowtown/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/snowtown/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_SnowTown::
+	.incbin "data/tilesets/secondary/snowtown/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_SnowGeneral::
+	.incbin "data/tilesets/primary/snowgeneral/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/snowgeneral/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_SnowGeneral::
+	.incbin "data/tilesets/primary/snowgeneral/tiles.4bpp.lz"

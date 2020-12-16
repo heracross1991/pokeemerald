@@ -1,0 +1,16 @@
+ninetales-alola
+-brick break
+-defog
+-swords dance
+-nasty plot
+-protect
+-recovery
+-steel move
+-steel type (defensive)
+-toxic
+
+weavile
+-fairy/steel/ice/fire (defensive)
+-ninetales-alola
+-fighting/fairy/steel/fire type move
+

@@ -1,0 +1,49 @@
+-christmas carol
+-gym leader
+-snowy town
+-easy battle
+-gym trainers
+-young trainers
+-unnamed cave
+-ghost
+-friends
+-alone
+-underprepared
+-injured
+-afraid
+-funeral
+-pokemon not upset
+-take to cave
+-ghost/snow pokemon
+-smoking
+-food bank
+-church
+-littering
+-can't earn exp
+-fend off challengers
+-challengers with random from pool
+-face ghost
+-improved ai
+-unique party selection
+-level 50s
+-tilesets (pillow, aerun)
+-character overworlds (gavoca, benis)
+-pokemon overworlds (gavoca, benis)
+-sideways stairs
+-triple layer tiles
+-dynamic overworld palettes
+-title screen (gavoca, pillow)
+-several maps; conceptually one area
+-interiors
+-cave
+-flashback
+-ice puzzle (struedelmuffin)
+-frozen lake
+-park
+-interesting npcs
+-events
+-side quests
+-egg's multichoice
+-xaman's debug
+-ice skating
+-evil team (team icicle)

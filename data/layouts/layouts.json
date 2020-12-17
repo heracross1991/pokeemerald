@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_SnowTown",
       "border_filepath": "data/layouts/TestMap/border.bin",
       "blockdata_filepath": "data/layouts/TestMap/map.bin"
+    },
+    {
+      "id": "LAYOUT_TESTMAP_GRAVEYARD",
+      "name": "TestmapGraveyard_Layout",
+      "width": 38,
+      "height": 33,
+      "primary_tileset": "gTileset_SnowGeneral",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/TestmapGraveyard/border.bin",
+      "blockdata_filepath": "data/layouts/TestmapGraveyard/map.bin"
     }
   ]
 }

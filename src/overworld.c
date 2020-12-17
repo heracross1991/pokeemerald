@@ -521,7 +521,7 @@ void Overworld_SetObjEventTemplateMovementType(u8 localId, u8 movementType)
 
 static void InitMapView(void)
 {
-    ResetFieldCamera();
+    move_tilemap_camera_to_upper_left_corner();
     CopyMapTilesetsToVram(gMapHeader.mapLayout);
     LoadMapTilesetPalettes(gMapHeader.mapLayout);
     DrawWholeMapView();
@@ -1822,7 +1822,7 @@ static bool32 LoadMapInStepsLink(u8 *state)
         (*state)++;
         break;
     case 5:
-        ResetFieldCamera();
+        move_tilemap_camera_to_upper_left_corner();
         (*state)++;
         break;
     case 6:
@@ -1897,7 +1897,7 @@ static bool32 LoadMapInStepsLocal(u8 *state, bool32 a2)
         (*state)++;
         break;
     case 5:
-        ResetFieldCamera();
+        move_tilemap_camera_to_upper_left_corner();
         (*state)++;
         break;
     case 6:
@@ -1994,7 +1994,7 @@ static bool32 ReturnToFieldLink(u8 *state)
         (*state)++;
         break;
     case 4:
-        ResetFieldCamera();
+        move_tilemap_camera_to_upper_left_corner();
         (*state)++;
         break;
     case 5:

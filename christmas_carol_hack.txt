@@ -47,3 +47,6 @@
 -xaman's debug
 -ice skating
 -evil team (team icicle)
+-fireplace
+-wreath
+-cheese wedge

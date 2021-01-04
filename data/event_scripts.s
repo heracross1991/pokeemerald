@@ -1066,3 +1066,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/TestMap/scripts.inc"
 
 	.include "data/maps/TestmapGraveyard/scripts.inc"
+
+	.include "data/maps/TestMapInterior/scripts.inc"
+
+	.include "data/maps/SnowVillagePokecenter/scripts.inc"

@@ -1789,3 +1789,43 @@ gTilesetPalettes_SnowGeneral::
 	.align 2
 gTilesetTiles_SnowGeneral::
 	.incbin "data/tilesets/primary/snowgeneral/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_snowvillageinterior::
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/snowvillageinterior/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_snowvillageinterior::
+	.incbin "data/tilesets/primary/snowvillageinterior/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_snowvillageinteriorsecondary::
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_snowvillageinteriorsecondary::
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/tiles.4bpp.lz"

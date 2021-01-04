@@ -579,3 +579,17 @@ gMetatiles_SnowGeneral::
 	.align 1
 gMetatileAttributes_SnowGeneral::
 	.incbin "data/tilesets/primary/snowgeneral/metatile_attributes.bin"
+	.align 1
+gMetatiles_snowvillageinterior::
+	.incbin "data/tilesets/primary/snowvillageinterior/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_snowvillageinterior::
+	.incbin "data/tilesets/primary/snowvillageinterior/metatile_attributes.bin"
+	.align 1
+gMetatiles_snowvillageinteriorsecondary::
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_snowvillageinteriorsecondary::
+	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/metatile_attributes.bin"

@@ -4414,7 +4414,7 @@
     {
       "id": "LAYOUT_TEST_MAP",
       "name": "TestMap_Layout",
-      "width": 60,
+      "width": 70,
       "height": 60,
       "primary_tileset": "gTileset_SnowGeneral",
       "secondary_tileset": "gTileset_SnowTown",
@@ -4424,12 +4424,32 @@
     {
       "id": "LAYOUT_TESTMAP_GRAVEYARD",
       "name": "TestmapGraveyard_Layout",
-      "width": 38,
+      "width": 70,
       "height": 33,
       "primary_tileset": "gTileset_SnowGeneral",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/TestmapGraveyard/border.bin",
       "blockdata_filepath": "data/layouts/TestmapGraveyard/map.bin"
+    },
+    {
+      "id": "LAYOUT_TEST_MAP_INTERIOR",
+      "name": "TestMapInterior_Layout",
+      "width": 15,
+      "height": 12,
+      "primary_tileset": "gTileset_snowvillageinterior",
+      "secondary_tileset": "gTileset_snowvillageinteriorsecondary",
+      "border_filepath": "data/layouts/TestMapInterior/border.bin",
+      "blockdata_filepath": "data/layouts/TestMapInterior/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOW_VILLAGE_POKECENTER",
+      "name": "SnowVillagePokecenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_snowvillageinterior",
+      "secondary_tileset": "gTileset_snowvillageinteriorsecondary",
+      "border_filepath": "data/layouts/SnowVillagePokecenter/border.bin",
+      "blockdata_filepath": "data/layouts/SnowVillagePokecenter/map.bin"
     }
   ]
 }

@@ -95,7 +95,9 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "TestMap",
-    "TestmapGraveyard"
+    "TestmapGraveyard",
+    "TestMapInterior",
+    "SnowVillagePokecenter"
   ],
   "gMapGroup1": [
     "LittlerootTown_BrendansHouse_1F",

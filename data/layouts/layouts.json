@@ -4427,7 +4427,7 @@
       "width": 70,
       "height": 33,
       "primary_tileset": "gTileset_SnowGeneral",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Graveyard",
       "border_filepath": "data/layouts/TestmapGraveyard/border.bin",
       "blockdata_filepath": "data/layouts/TestmapGraveyard/map.bin"
     },
@@ -4450,6 +4450,26 @@
       "secondary_tileset": "gTileset_snowvillageinteriorsecondary",
       "border_filepath": "data/layouts/SnowVillagePokecenter/border.bin",
       "blockdata_filepath": "data/layouts/SnowVillagePokecenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOW_INTERIOR_NPCHOUSE1",
+      "name": "SnowInteriorNPChouse1_Layout",
+      "width": 15,
+      "height": 12,
+      "primary_tileset": "gTileset_snowvillageinterior",
+      "secondary_tileset": "gTileset_snowvillageinteriorsecondary",
+      "border_filepath": "data/layouts/SnowInteriorNPChouse1/border.bin",
+      "blockdata_filepath": "data/layouts/SnowInteriorNPChouse1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_CAVE",
+      "name": "IceCave_Layout",
+      "width": 34,
+      "height": 55,
+      "primary_tileset": "gTileset_IceCave",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/IceCave/border.bin",
+      "blockdata_filepath": "data/layouts/IceCave/map.bin"
     }
   ]
 }

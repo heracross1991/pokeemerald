@@ -885,3 +885,25 @@ gTileset_snowvillageinteriorsecondary::
 	.4byte gMetatiles_snowvillageinteriorsecondary
 	.4byte gMetatileAttributes_snowvillageinteriorsecondary
 	.4byte NULL
+
+	.align 2
+gTileset_Graveyard::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Graveyard
+	.4byte gTilesetPalettes_Graveyard
+	.4byte gMetatiles_Graveyard
+	.4byte gMetatileAttributes_Graveyard
+	.4byte NULL
+
+	.align 2
+gTileset_IceCave::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_IceCave
+	.4byte gTilesetPalettes_IceCave
+	.4byte gMetatiles_IceCave
+	.4byte gMetatileAttributes_IceCave
+	.4byte NULL

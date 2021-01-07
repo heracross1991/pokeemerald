@@ -1829,3 +1829,43 @@ gTilesetPalettes_snowvillageinteriorsecondary::
 	.align 2
 gTilesetTiles_snowvillageinteriorsecondary::
 	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Graveyard::
+	.incbin "data/tilesets/secondary/graveyard/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/graveyard/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Graveyard::
+	.incbin "data/tilesets/secondary/graveyard/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_IceCave::
+	.incbin "data/tilesets/primary/icecave/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/icecave/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_IceCave::
+	.incbin "data/tilesets/primary/icecave/tiles.4bpp.lz"

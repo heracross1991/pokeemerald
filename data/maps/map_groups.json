@@ -97,7 +97,9 @@
     "TestMap",
     "TestmapGraveyard",
     "TestMapInterior",
-    "SnowVillagePokecenter"
+    "SnowVillagePokecenter",
+    "SnowInteriorNPChouse1",
+    "IceCave"
   ],
   "gMapGroup1": [
     "LittlerootTown_BrendansHouse_1F",

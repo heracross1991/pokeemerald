@@ -593,3 +593,17 @@ gMetatiles_snowvillageinteriorsecondary::
 	.align 1
 gMetatileAttributes_snowvillageinteriorsecondary::
 	.incbin "data/tilesets/secondary/snowvillageinteriorsecondary/metatile_attributes.bin"
+	.align 1
+gMetatiles_Graveyard::
+	.incbin "data/tilesets/secondary/graveyard/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Graveyard::
+	.incbin "data/tilesets/secondary/graveyard/metatile_attributes.bin"
+	.align 1
+gMetatiles_IceCave::
+	.incbin "data/tilesets/primary/icecave/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_IceCave::
+	.incbin "data/tilesets/primary/icecave/metatile_attributes.bin"

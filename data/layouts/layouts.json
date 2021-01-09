@@ -4470,6 +4470,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/IceCave/border.bin",
       "blockdata_filepath": "data/layouts/IceCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_CAVE_ENTRANCE",
+      "name": "IceCaveEntrance_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_IceCave",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/IceCaveEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/IceCaveEntrance/map.bin"
     }
   ]
 }

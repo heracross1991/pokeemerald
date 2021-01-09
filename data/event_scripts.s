@@ -1075,3 +1075,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SnowInteriorNPChouse1/scripts.inc"
 
 	.include "data/maps/IceCave/scripts.inc"
+
+	.include "data/maps/IceCaveEntrance/scripts.inc"

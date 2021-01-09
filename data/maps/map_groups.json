@@ -99,7 +99,8 @@
     "TestMapInterior",
     "SnowVillagePokecenter",
     "SnowInteriorNPChouse1",
-    "IceCave"
+    "IceCave",
+    "IceCaveEntrance"
   ],
   "gMapGroup1": [
     "LittlerootTown_BrendansHouse_1F",

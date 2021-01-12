@@ -5317,6 +5317,20 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
+    [ITEM_MASK] =
+    {
+        .name = _("Mask"),
+        .itemId = ITEM_MASK,
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_NONE,
+        .holdEffectParam = 4,
+        .description = sMaskDesc,
+        .pocket = POCKET_ITEMS,
+        .type = 0,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
     [ITEM_OLD_SEA_MAP] =
     {
         .name = _("Old Sea Map"),

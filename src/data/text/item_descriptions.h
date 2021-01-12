@@ -1993,6 +1993,11 @@ static const u8 sMagmaEmblemDesc[] = _(
     "the same shape as\n"
     "TEAM MAGMA's mark.");
 
+static const u8 sMaskDesc[] = _(
+    "A mask that\n"
+    "prevents infection\n"
+    "with Pokerus.");
+
 static const u8 sOldSeaMapDesc[] = _(
     "A faded sea chart\n"
     "that shows the way\n"

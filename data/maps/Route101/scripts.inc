@@ -207,6 +207,7 @@ Route101_Movement_Unused2: @ 81EBDF7
 	step_end
 
 Route101_EventScript_Youngster:: @ 81EBDFB
+	giveitem ITEM_MASK, 5
 	msgbox Route101_Text_TakeTiredPokemonToPokeCenter, MSGBOX_NPC
 	end
 

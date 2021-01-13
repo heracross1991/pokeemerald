@@ -6826,6 +6826,8 @@ extern const u32 gItemIconPalette_Sapphire[];
 // Emerald-only key items
 extern const u32 gItemIcon_MagmaEmblem[];
 extern const u32 gItemIconPalette_MagmaEmblem[];
+extern const u32 gItemIcon_Mask[];
+extern const u32 gItemIconPalette_Mask[];
 extern const u32 gItemIcon_OldSeaMap[];
 extern const u32 gItemIconPalette_OldSeaMap[];
 // Gen 4 Items

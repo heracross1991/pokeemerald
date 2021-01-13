@@ -6355,8 +6355,9 @@ u16 GetMonEVCount(struct Pokemon *mon)
 
 void RandomlyGivePartyPokerus(struct Pokemon *party)
 {
+    u16 helditem;
     u16 rnd = Random();
-    if (rnd == 0x4000 || rnd == 0x8000 || rnd == 0xC000)
+    if (rnd <= 0x4000 || rnd == 0x8000 || rnd >= 0xC000)
     {
         struct Pokemon *mon;
 
@@ -6370,8 +6371,8 @@ void RandomlyGivePartyPokerus(struct Pokemon *party)
             while (!GetMonData(mon, MON_DATA_SPECIES, 0));
         }
         while (GetMonData(mon, MON_DATA_IS_EGG, 0));
-
-        if (!(CheckPartyHasHadPokerus(party, gBitTable[rnd])))
+        helditem = GetMonData(mon, MON_DATA_HELD_ITEM,0);
+        if (!(CheckPartyHasHadPokerus(party, gBitTable[rnd])) &&  !(helditem == ITEM_MASK))
         {
             u8 rnd2;
 
@@ -6475,6 +6476,7 @@ void UpdatePartyPokerusTime(u16 days)
 
 void PartySpreadPokerus(struct Pokemon *party)
 {
+    u16 helditem;
     if ((Random() % 3) == 0)
     {
         int i;
@@ -6489,9 +6491,11 @@ void PartySpreadPokerus(struct Pokemon *party)
                     if (pokerus & 0xF)
                     {
                         // Spread to adjacent party members.
-                        if (i != 0 && !(GetMonData(&party[i - 1], MON_DATA_POKERUS, 0) & 0xF0))
+                        helditem = GetMonData(&party[i - 1], MON_DATA_HELD_ITEM,0);
+                        if (i != 0 && !(GetMonData(&party[i - 1], MON_DATA_POKERUS, 0) & 0xF0) && !(helditem == ITEM_MASK))
                             SetMonData(&party[i - 1], MON_DATA_POKERUS, &curPokerus);
-                        if (i != (PARTY_SIZE - 1) && !(GetMonData(&party[i + 1], MON_DATA_POKERUS, 0) & 0xF0))
+                        helditem = GetMonData(&party[i + 1], MON_DATA_HELD_ITEM,0);
+                        if (i != (PARTY_SIZE - 1) && !(GetMonData(&party[i + 1], MON_DATA_POKERUS, 0) & 0xF0) && !(helditem == ITEM_MASK))
                         {
                             SetMonData(&party[i + 1], MON_DATA_POKERUS, &curPokerus);
                             i++;

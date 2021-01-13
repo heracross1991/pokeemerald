@@ -56,8 +56,15 @@
       "x": 12,
       "y": 24,
       "elevation": 0,
-      "dest_map": "MAP_SNOWVILLAGE_NO_GRAVEYARD",
+      "dest_map": "MAP_OLDALE_TOWN",
       "dest_warp_id": 0
+    },
+    {
+      "x": 47,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_SNOWVILLAGE_NO_GRAVEYARD",
+      "dest_warp_id": 6
     }
   ],
   "coord_events": [

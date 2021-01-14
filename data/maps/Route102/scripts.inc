@@ -17,6 +17,17 @@ Route102_EventScript_Boy:: @ 81EC0FC
 	msgbox Route102_Text_CatchWholeBunchOfPokemon, MSGBOX_NPC
 	end
 
+Route102_EventScript_Calvin_Start::
+	specialvar VAR_RESULT, IsPokerusInParty
+	compare VAR_RESULT, FALSE
+	goto_if_eq Route102_EventScript_Calvin
+	msgbox Route102_Text_CalvinNoBattle, MSGBOX_NPC
+	end
+
+Route102_Text_CalvinNoBattle:
+	.string "I won't battle you!\n"
+	.string "One of your Pokemon is infected!$"
+
 Route102_EventScript_Calvin:: @ 81EC105
 	trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
 	specialvar VAR_RESULT, ShouldTryRematchBattle

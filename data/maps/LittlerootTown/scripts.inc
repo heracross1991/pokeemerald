@@ -259,7 +259,14 @@ LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeFemale:: @ 81E8013
 	end
 
 LittlerootTown_EventScript_FatMan:: @ 81E8022
+	specialvar VAR_RESULT, IsPokerusInParty
+	compare VAR_RESULT 1
+	goto_if_eq LittlerootTown_EventScript_FatMan_PokerusInTeam
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
+	end
+
+LittlerootTown_EventScript_FatMan_PokerusInTeam::
+	msgbox LittlerootTown_Text_Pokerus, MSGBOX_NPC
 	end
 
 LittlerootTown_EventScript_Boy:: @ 81E802B
@@ -1012,6 +1019,10 @@ LittlerootTown_Text_CanUsePCToStoreItems: @ 81E8ACF
 	.string "If you use a PC, you can store items\n"
 	.string "and POKéMON.\p"
 	.string "The power of science is staggering!$"
+
+LittlerootTown_Text_Pokerus:
+	.string "Pokerus?\n"
+	.string "Your POKéMON is infected.$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab: @ 81E8B25
 	.string "PROF. BIRCH spends days in his LAB\n"

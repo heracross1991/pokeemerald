@@ -718,6 +718,11 @@
 #define METATILE_Slateport_Door             0x2DC
 #define METATILE_Slateport_Door_BattleTent  0x393
 
+// gTileset_SnowTown
+#define METATILE_SnowTown_Door_Lodge       0x24B
+#define METATILE_SnowTown_Door_PokeCenter  0x293
+#define METATILE_SnowTown_Door_Pokemart    0x2B3
+
 // gTileset_SootopolisGym
 #define METATILE_SootopolisGym_Ice_Broken   0x206
 #define METATILE_SootopolisGym_Ice_Cracked  0x20E

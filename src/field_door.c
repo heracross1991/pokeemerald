@@ -132,6 +132,12 @@ static const u8 sDoorAnimTiles_TrainerHillLobbyElevator[] = INCBIN_U8("graphics/
 static const u16 sDoorNullPalette48[16] = {};
 static const u8 sDoorAnimTiles_TrainerHillRoofElevator[] = INCBIN_U8("graphics/door_anims/trainer_hill_roof_elevator.4bpp");
 static const u16 sDoorNullPalette49[16] = {};
+static const u8 sDoorAnimTiles_SnowVillageDoorLodge[] = INCBIN_U8("graphics/door_anims/snowvillage_lodge.4bpp");
+static const u16 sDoorNullPalette50[16] = {};
+static const u8 sDoorAnimTiles_SnowTownPokecenter[] = INCBIN_U8("graphics/door_anims/snowvillage_pokecenter.4bpp");
+static const u16 sDoorNullPalette51[16] = {};
+static const u8 sDoorAnimTilesSnowTownPokemart[] = INCBIN_U8("graphics/door_anims/poke_mart_lodge.4bpp");
+static const u16 sDoorNullPalette52[16] = {};
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -220,6 +226,9 @@ static const u8 sDoorAnimPalettes_BattleDomePreBattleRoom[] = {9, 9, 7, 7, 7, 7,
 static const u8 sDoorAnimPalettes_BattleTentInterior[] = {9, 9, 9, 9, 9, 9, 9, 9};
 static const u8 sDoorAnimPalettes_TrainerHillLobbyElevator[] = {7, 7, 7, 7, 7, 7, 7, 7};
 static const u8 sDoorAnimPalettes_TrainerHillRoofElevator[] = {9, 9, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_SnowVillageDoorLodge[] = {7, 7, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_SnowTownPokeCenter[] = {7, 7, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_SnowTownPokemart[] = {10, 10, 10, 10, 10, 10, 10, 10};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -276,6 +285,9 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
     {METATILE_TrainerHill_Door_Elevator_Lobby,              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillLobbyElevator, sDoorAnimPalettes_TrainerHillLobbyElevator},
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
+    {METATILE_SnowTown_Door_Lodge,            DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_SnowVillageDoorLodge, sDoorAnimPalettes_SnowVillageDoorLodge},
+    {METATILE_SnowTown_Door_PokeCenter,                     DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_SnowTownPokecenter, sDoorAnimPalettes_SnowTownPokeCenter },
+    {METATILE_SnowTown_Door_Pokemart,                       DOOR_SOUND_SLIDING, 1, sDoorAnimTilesSnowTownPokemart, sDoorAnimPalettes_SnowTownPokemart},
     {},
 };
 
